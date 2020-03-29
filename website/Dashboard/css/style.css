@@ -1,0 +1,196 @@
+#wrapper {
+    display: flex;
+}
+
+.sidebar {
+    min-height: 100vh;
+    width: 20vw;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar li {
+    color: white;
+}
+
+.sidebar-class {
+    font-weight: 1000;
+}
+
+.sidebar-theme {
+    font-weight: 300;
+}
+
+.sidebar-class .class-text {
+    margin: 0;
+    line-height: 4.375rem;
+    text-align: center;
+    background-color: rgba(255,255,255,0.1);
+    height: 4.375rem;
+}
+
+.sidebar-class .theme-text {
+    margin: 0;
+    text-align: center;
+    line-height: 2.375rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.sidebar-class .sidebar-task {
+    margin: 0;
+    text-align: left;
+    padding: 5px 1rem;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-gradient-primary {
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+    background-size: cover;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+#wrapper #content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#wrapper #content-wrapper #content {
+    flex: 1 0 auto;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.my-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+footer {
+    display: block;
+}
+
+.sticky-footer {
+    padding: 2rem 0;
+    flex-shrink: 0;
+}
+
+footer.sticky-footer .copyright {
+    line-height: 1;
+    font-size: .8rem;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+
+
+
+/* navbar bg-white topbar static-top shadow */
+
+
+.topbar {
+    height: 4.375rem;
+}
+
+.shadow {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
+}
+
+.navbar-expand {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container, .container-fluid {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
